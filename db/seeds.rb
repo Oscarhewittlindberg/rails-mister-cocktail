@@ -16,12 +16,7 @@ Ingredient.create(name: "Sugar")
 Ingredient.create(name: "Lime juice")
 
 
-Cocktail.create(name: "Moscow mule")
-Cocktail.create(name: "Vodka redbull")
-Cocktail.create(name: "Gin & Tonic")
-Cocktail.create(name: "White russian")
-Cocktail.create(name: "Bloody Mary")
-Cocktail.create(name: "Whiskey sours")
+
 
 
 
