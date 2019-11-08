@@ -1,8 +1,18 @@
-
-<h1>All of the cocktails</h1>
-
-
 <div class="row">
+
+  <% if @cocktails.count == 0%>
+
+  <div class="col-6">
+
+      <h1>There are no cocktails currently added</h1>
+      <%= link_to "Be the first to add", new_cocktail_path,class: "btn" %>
+
+  </div>
+
+
+  <% else %>
+
+    <h1>All of the cocktails</h1>
 
     <% @cocktails.each do |cocktail| %>
 
@@ -16,6 +26,8 @@
         </div>
 
         <% end %>
+
+      <% end %>
 
     </div>
 
