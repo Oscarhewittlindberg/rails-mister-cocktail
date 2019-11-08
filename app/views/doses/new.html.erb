@@ -1,5 +1,6 @@
 <h1>Select the measures</h1>
 
+
 <%= simple_form_for([ @cocktail, @dose ]) do |form| %>
   <%= form.association :ingredient %>
   <%= form.input :description, as: :text %>
